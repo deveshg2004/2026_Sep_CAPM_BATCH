@@ -1,0 +1,150 @@
+### CREATE AUTHOR
+POST http://localhost:4004/odata/v4/book/createAuthor
+Content-Type: application/json
+
+{
+    "Name": "David",
+    "Address": "Bangalore",
+    "URL": "www.david.com"
+}
+
+
+### CHECK AUTHORS
+GET http://localhost:4004/odata/v4/book/AuthorSrv
+
+
+### CREATE PUBLISHER
+POST http://localhost:4004/odata/v4/book/createPublisher
+Content-Type: application/json
+
+{
+    "Name": "Oxford",
+    "Address": "Chennai",
+    "Phone": "9876543210",
+    "URL": 101
+}
+
+
+### CHECK PUBLISHERS
+GET http://localhost:4004/odata/v4/book/PublisherSrv
+
+
+### CREATE CUSTOMER
+POST http://localhost:4004/odata/v4/book/createCustomer
+Content-Type: application/json
+
+{
+    "Email": "rahul@gmail.com",
+    "Name": "Rahul",
+    "Phone": "9876543210",
+    "Address": "Chennai"
+}
+
+
+### CHECK CUSTOMERS
+GET http://localhost:4004/odata/v4/book/CustomerSrv
+
+
+### CREATE WAREHOUSE
+POST http://localhost:4004/odata/v4/book/createWarehouse
+Content-Type: application/json
+
+{
+    "Code": 101,
+    "Phone": "9876543210",
+    "Address": "Bangalore"
+}
+
+
+### CHECK WAREHOUSES
+GET http://localhost:4004/odata/v4/book/WarehouseSrv
+
+
+### CREATE BOOK
+POST http://localhost:4004/odata/v4/book/createBook
+Content-Type: application/json
+
+{
+    "ISBN": "ISBN002",
+    "PublisherName_Name": "Oxford",
+    "AuthorName_Name": "David",
+    "AuthorName_Address": "Bangalore",
+    "Year": 2026,
+    "Title": "SAP CAPM",
+    "Price": 500
+}
+
+
+### CHECK BOOKS
+GET http://localhost:4004/odata/v4/book/BookSrv
+
+
+### CREATE SHOPPING BASKET
+POST http://localhost:4004/odata/v4/book/createShoppingBasket
+Content-Type: application/json
+
+{
+    "ID": 1,
+    "CustomerEmail_Email": "rahul@gmail.com"
+}
+
+
+### CHECK SHOPPING BASKETS
+GET http://localhost:4004/odata/v4/book/ShoppingBasketSrv
+
+
+### CREATE SHOPPING BASKET BOOK
+POST http://localhost:4004/odata/v4/book/createShoppingBasketBook
+Content-Type: application/json
+
+{
+    "ShoppingBasketID_ID": 1,
+    "BookISBN_ISBN": "ISBN002",
+    "Count": 2
+}
+
+
+### CHECK SHOPPING BASKET BOOKS
+GET http://localhost:4004/odata/v4/book/ShoppingBasketBookSrv
+
+
+### CREATE WAREHOUSE BOOK
+POST http://localhost:4004/odata/v4/book/createWarehouseBook
+Content-Type: application/json
+
+{
+    "WarehouseCode_Code": 101,
+    "BookISBN_ISBN": "ISBN002",
+    "Count": 10
+}
+
+
+### CHECK WAREHOUSE BOOKS
+GET http://localhost:4004/odata/v4/book/WarehouseBookSrv
+
+
+### UPDATE BOOK PRICE
+POST http://localhost:4004/odata/v4/book/updateBook
+Content-Type: application/json
+
+{
+    "ISBN": "ISBN002",
+    "Price": 700
+}
+
+
+### CHECK BOOK AFTER UPDATE
+GET http://localhost:4004/odata/v4/book/BookSrv
+
+
+### DELETE BOOK
+POST http://localhost:4004/odata/v4/book/deleteBook
+Content-Type: application/json
+
+{
+    "ISBN": "ISBN002"
+}
+
+
+### CHECK BOOKS AFTER DELETE
+GET http://localhost:4004/odata/v4/book/BookSrv

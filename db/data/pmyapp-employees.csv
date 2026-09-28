@@ -1,0 +1,11 @@
+empID,empName,empDept,currenyCode,city,country,division_divID
+1001,Rahul Sharma,Development,INR,Bangalore,India,DIV001
+1002,Priya Singh,Human Resources,INR,Mumbai,India,DIV002
+1003,John Smith,Sales,USD,New York,USA,DIV003
+1004,Emma Brown,Finance,GBP,London,UK,DIV004
+1005,Lukas Weber,Operations,EUR,Berlin,Germany,DIV005
+1006,Ananya Gupta,Development,INR,Bangalore,India,DIV001
+1007,Michael Johnson,Sales,USD,Chicago,USA,DIV003
+1008,Sophia Wilson,Finance,GBP,Manchester,UK,DIV004
+1009,Arjun Patel,Human Resources,INR,Pune,India,DIV002
+1010,David Miller,Operations,EUR,Munich,Germany,DIV005

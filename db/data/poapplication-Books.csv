@@ -1,0 +1,9 @@
+bookId,parent_StudentId,stuName,bName,authName,bPrice,doi,dor,def_StudentId
+1,101,Arjun Singh,Java Programming,Herbert Schildt,599.00,2025-01-10,2025-01-25,101
+2,101,Arjun Singh,Data Structures,Seymour Lipschutz,450.00,2025-02-05,2025-02-20,101
+3,102,Neha Patel,Python Basics,Eric Matthes,699.00,2025-03-01,2025-03-15,102
+4,103,Rohit Kumar,Database Systems,Navathe,799.00,2025-03-10,2025-03-30,103
+5,104,Pooja Sharma,Operating Systems,Galvin,899.00,2025-04-05,2025-04-20,104
+6,105,Karan Gupta,Computer Networks,Andrew Tanenbaum,999.00,2025-05-01,2025-05-18,105
+7,102,Neha Patel,Cloud Computing,Rajkumar Buyya,750.00,2025-06-15,2025-06-30,102
+8,103,Rohit Kumar,Machine Learning,Tom Mitchell,1200.00,2025-07-01,2025-07-20,103

@@ -1,0 +1,9 @@
+ID,Album_ID,Location_ID,Member_ID,Title,Description,Privacy,UploadDate,View,ImagePath
+1,1,4,1,Beach Sunset,Sunset captured at Goa beach,Public,2026-01-15,150,/images/beach.jpg
+2,1,1,1,Marina Beach,Evening view of Marina Beach,Public,2026-01-20,95,/images/marina.jpg
+3,2,2,2,Birthday Party,Family birthday celebration,Private,2026-02-10,45,/images/birthday.jpg
+4,4,3,3,City Skyline,Mumbai city skyline at night,Public,2026-03-05,230,/images/skyline.jpg
+5,3,4,2,Palm Trees,Palm trees near the beach,Public,2026-03-18,175,/images/palms.jpg
+6,3,1,4,Sunrise,A beautiful morning sunrise,Public,2026-04-02,130,/images/sunrise.jpg
+7,4,5,4,City Street,Busy city street during evening,Private,2026-04-15,75,/images/street.jpg
+8,2,2,3,Family Dinner,Family gathering at dinner,Private,2026-05-01,60,/images/dinner.jpg

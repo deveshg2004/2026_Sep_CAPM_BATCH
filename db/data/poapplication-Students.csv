@@ -1,0 +1,6 @@
+StudentId,studentName,fatherName,motherName,contactNo,fee,currency_code,country_code,city,abc_classId
+101,Arjun Singh,Rajesh Singh,Kavita Singh,9876543210,25000,INR,India,Bangalore,1
+102,Neha Patel,Mahesh Patel,Rita Patel,9876543211,30000,INR,India,Mumbai,2
+103,Rohit Kumar,Suresh Kumar,Anita Kumar,9876543212,28000,INR,India,Delhi,3
+104,Pooja Sharma,Ajay Sharma,Meena Sharma,9876543213,35000,INR,India,Hyderabad,4
+105,Karan Gupta,Vinod Gupta,Sunita Gupta,9876543214,40000,INR,India,Chennai,5
